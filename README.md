@@ -5,7 +5,7 @@ A Julia library for working with [braid groups](https://en.wikipedia.org/wiki/Br
 ### Features
 
 - Basic operations on braids (composition, equality, inversion, generators)
-- [Unreduced Burau representation](https://en.wikipedia.org/wiki/Burau_representation) of braids into a matrix space over <img src="https://github.com/jwvictor/Braids.jl/raw/master/resources/polyring.png" width="75px" /> 
+- [Unreduced Burau representation](https://en.wikipedia.org/wiki/Burau_representation) of braids into a matrix space over <img src="https://github.com/jwvictor/Braids.jl/raw/master/resources/polyring.png" width="75px" style="margin: 0" /> 
 - [Dehornoy reduction](https://dehornoy.users.lmno.cnrs.fr/Papers/Dfo.pdf) of braids, mainly used in the implementation of the equality operation (the Dehornoy always reduces the trivial braid to the identity)
 
 The Burau representation uses [Nemo](http://nemocas.org/) to manipulate polynomials. A field of fractions is used in place of the inverse element (Nemo doesn't yet support negative exponents).
